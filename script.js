@@ -176,7 +176,8 @@ window.onSpotifyWebPlaybackSDKReady = () => {
         document.getElementById("mensagem-container").classList.add("hidden");
       }, 1300);
       contador_musicas++;
-      if (contador_musicas === 4) {
+      //console.log(contador_musicas)
+      if (contador_musicas === 6) {
         alert(`PARABÉNS, Você finalizou o jogo!!! Sua pontuação é ${pontos}` );
         window.location.href = "index.html";
       }
