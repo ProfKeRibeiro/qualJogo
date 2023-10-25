@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-image: url(fundo2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btn-resposta {
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  background-color: transparent;
+  background-image: url('enviar2.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 26px;
+}
+
+#play-music {
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  background-color: transparent;
+  background-image: url('play.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 26px;
+}
+
+#resposta {
+    background-color: rgb(255, 251, 229);
+    margin: 10px;
+    padding: 10px; 
+    border: none; 
+    border-radius: 100px; 
+    font-size: 16px; 
+    width: 100%; 
+    transition: border-color 0.3s ease; 
+}
+
+#resposta:focus {
+    border-color: #000205;
+}
+
+#score{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 44px;
+  color: black;
+}
